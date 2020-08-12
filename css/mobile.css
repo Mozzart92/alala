@@ -1,0 +1,85 @@
+.f {
+    font-size: 12px;
+  }  
+
+  .linija2 {
+    height: 6vh;
+  }  
+
+  .linija3 {
+    height: 6vh;
+  }  
+
+  .tri {
+    height: 10vh;
+  }
+
+  .gal {
+    width: 330px;
+  }
+
+
+
+
+  @media only screen and (max-width: 450px) {
+    header {
+        padding-top: 11rem;
+      }
+      .tri {
+        height: 16vh;
+      }
+  }
+
+
+
+  @media only screen and (max-width: 414px) {
+    header {
+        padding-top: 13rem;
+      }
+      .tri {
+        height: 12vh;
+      }
+  }
+
+  @media only screen and (max-width: 375px) {
+    header {
+        padding-top: 10rem;
+      }
+      .tri {
+        height: 12vh;
+      }
+  }
+
+  @media only screen and (max-width: 320px) {
+    header {
+        padding-top: 5rem;
+      }
+  }
+
+
+
+  @media only screen and (max-width: 280px) {
+    header {
+        padding-top: 12rem;
+
+      }
+  }
+  
+  @media only screen and (max-height: 500px) {
+    header {
+      padding: 0.75rem;
+      padding-top: 5rem; 
+    }
+  
+    .tri {
+      height: 20vh;
+    }
+  
+    .klasa2 {
+      height: 25vh
+    }
+  
+  }
+
+
+

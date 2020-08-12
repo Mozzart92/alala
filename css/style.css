@@ -1,0 +1,281 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background:#fcfffe;
+  }
+
+  header {
+    background: url('../img/1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 15rem; 
+  }
+
+
+  h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 32px;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .klasa p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+  }
+
+
+   .klasa2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 14vh;
+    background: #13a880;
+  }
+
+  header p {
+    margin: 1rem 0;
+  }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    color: black;
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 0.55rem 1.2rem;
+  }
+
+  .btn:hover {
+    background-color: #fcfffe;
+    opacity: 0.4;
+  }
+
+  .btn2 {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    color: black;
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 0.25rem 1rem;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .btn2:hover {
+    background-color: #95cfc1;
+    opacity: 0.4;
+  }
+
+  .fas {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    color: black;
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 0.25rem 1rem;
+    margin-top: 0;
+  }
+
+  .fas:hover {
+    background-color: #95cfc1;
+    opacity: 0.4;
+  }
+
+
+  .btnga {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 0.55rem 1.5rem;
+    margin-top: 0;
+  }
+
+
+  .butga {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    margin-bottom: 1rem;
+  }
+
+  .btnga:hover {
+    background-color: #fcfffe;
+  }
+
+  section {
+    padding: 2rem;
+    line-height: 1.7rem;
+    text-align: center;
+  }
+
+  .moda {
+    padding: 8px;
+    border-radius: 12px;
+  }
+
+  .modas {
+    margin-top: 1vh;
+  }
+
+  .linija {
+    height: 16vh;
+}
+
+  .linija2 {
+     height: 8vh;
+}  
+
+.linija3 {
+  height: 10vh;
+}  
+
+.container {
+    margin: auto;
+    max-width: 820px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+
+  .container-flex {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-flex2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+  }
+ 
+  .container-flex3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container-flex4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .gal{
+    padding: 8px;
+    border-radius: 20px;
+  }
+
+  .dot {
+    padding: 5px;
+    border-radius: 18px;
+  }
+
+  .tri {
+    background: #95cfc1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center; 
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #fcfffe;
+  color: #3B5998;
+  margin: 4px;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #fcfffe;
+  color: #FF0000;
+  margin: 4px;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #fcfffe;
+  color: #c73a6b;
+  margin: 4px;
+}
+
+.fu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  color: black;
+  background-color: #13a880;
+}   
+
+.f {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}  
+
+
+
+
+
+
+
+
